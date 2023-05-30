@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap';
+
+body{
+    background-color: #f7ebcb;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #7a2b17;
+}
+
+h1{
+    border-bottom: 2px solid tan;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+nav{
+    border-radius: 7px;
+    background-color: #decfa7;
+}
+.nav-link:hover{
+    color: #7a2b17;
+}
+#goTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f7ebcb; /* Set a background color */
+    color: #7a2b17; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #goTop:hover {
+    color: #7a2b17;
+    background-color: tan; /* Add a dark-grey background on hover */
+  }
